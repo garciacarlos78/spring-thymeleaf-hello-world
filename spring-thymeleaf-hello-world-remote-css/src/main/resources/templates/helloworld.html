@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" th:href="@{/css/mycss.css}" />
+    <title>Spring Boot Thymeleaf</title>
+</head>
+<body class="jumbotron text-center">
+    <p>Hello World CSS!</p>
+    <p class="mystyle" th:text="'Time on server is ' + ${greeting}"></p>
+</body>
+</html>
