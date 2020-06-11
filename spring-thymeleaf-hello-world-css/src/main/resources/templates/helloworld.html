@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/mycss.css}" />
+    <title>Spring Boot Thymeleaf</title>
+</head>
+<body class="mystyle">
+    <p>Hello World CSS!</p>
+    <p th:text="'Time on server is ' + ${greeting}"></p>
+</body>
+</html>
